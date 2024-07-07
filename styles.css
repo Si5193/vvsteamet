@@ -3,7 +3,7 @@ body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
     scroll-behavior: smooth;
-    color: black; /* All text is black */
+    color: white; /* All text is white */
 }
 
 /* Video Container */
@@ -120,7 +120,7 @@ body {
     margin-top: 5rem; /* Justera margin-top för att minska avstånd */
     position: relative;
     z-index: 2;
-    background: linear-gradient(135deg, rgba(46, 164, 218, 0.7) 0%, rgba(24, 94, 124, 0.7) 100%); /* Gradient background */
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.7) 0%, rgba(50, 50, 50, 0.7) 100%); /* Svart gradient background */
     backdrop-filter: blur(10px); /* För att ge en suddig effekt på bakgrunden */
     overflow: hidden;
 }
@@ -143,7 +143,7 @@ body {
 .section-divider {
     border: 0;
     height: 1px;
-    background: #000;
+    background: #fff;
     margin: 0;
 }
 
@@ -188,7 +188,7 @@ body {
 .footer {
     text-align: center;
     padding: 1rem;
-    background: #0056b3; /* Blue background for footer */
+    background: #333; /* Svart background för footer */
     color: white;
 }
 
